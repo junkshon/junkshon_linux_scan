@@ -5,6 +5,12 @@
 
 The linux scan script will pull information about the host from the system. The script will need the installation of psutils to collect cpu/memory data from the linux host. This can be installed using:
 
+### Requirements
+
+Python3
+psutil
+
+### Install steps
 1. Create a directory on the server 
 2. Download the script from github, see GitHub location section below.
 3. Create a virtual environment for python : virtualvenv system
@@ -48,8 +54,8 @@ You have the following options:
 
 Each option will generate a csv file that is prefix with the output type e.g. system and then the servername and datetime stamp.
 
-- example file name : systeminfo_server1234_201218_132247.csv
+- example file name : systeminfo_server1234_200601_132247.csv
 
 # Output
 
-Once the script has been run and produed the .csv files these can be uploaded. 
+Once the script has been run and produed the .csv files these can be uploaded your appropriate portal.
