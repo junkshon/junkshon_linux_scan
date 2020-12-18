@@ -1,6 +1,18 @@
 # linux scan 
 
-# script location:
+# Installation Instructions 
+
+The linux scan script will pull information about the host from the system. The script will need the installation of psutils to collect cpu/memory data from the linux host. This can be installed using:
+
+1. Create a directory on the server 
+2. Download the script from github, see GitHub location section below.
+3. Create a virtual environment for python : virtualvenv system
+4. Activate virtual environment source system/bin/activate 
+5. pip install -r requirements.txt 
+
+This will prepare the environment to allow the script to run. 
+
+# GitHub Location
 
 To clone using HTTPS:
 
@@ -12,18 +24,7 @@ git clone git@github.com:junkshon/junkshon_linux_scan.git
 
 Or you can go directly to the GitHub repo via the web browser and download the script from there. 
 
-# Installation Instructions 
-
-The linux scan script will pull information about the host from the system. The script will need the installation of psutils to collect cpu/memory data from the linux host. This can be installed using:
-
-1. Create a directory on the server 
-2. Download the script from github 
-3. Create a virtual environment for python : virtualvenv system
-4. Activate virtual environment source system/bin/activate 
-5. pip install -r requirements.txt 
-
-This will prepare the environment to allow the script to run. 
-
+https://github.com/junkshon/junkshon_linux_scan
 # Running the script 
 
 This will provide help text for the command utility:
