@@ -1,5 +1,5 @@
 '''
-    junkshon Linux discovery tool..
+ Linux discovery tool..
 '''
 
 import socket
