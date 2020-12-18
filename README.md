@@ -1,5 +1,6 @@
 # linux scan 
 
+## It is recommended that your certified system admin run this script. 
 # Installation Instructions 
 
 The linux scan script will pull information about the host from the system. The script will need the installation of psutils to collect cpu/memory data from the linux host. This can be installed using:
