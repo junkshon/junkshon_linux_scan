@@ -34,17 +34,17 @@ python junkshon_linux_scan.py -h
 
 To run the utility type the following: 
 
-python junkshon_linux_scan.py -d system
+python junkshon_linux_scan.py -d <option>
 
 You have the following options:
 
--d system (this will get the host information including cpu/mem/os)
--d process (this will provide a running process stack)
--d top (this will provide the top processes consuming the most memory)
--d disk (this will provide a summary of disks / layout and size)
--d network (this will provide a network stack summary of connections with src/dest ip and ports, ** this may require the script to be run in sudo mode on some systems)
+- system (this will get the host information including cpu/mem/os)
+- process (this will provide a running process stack)
+- top (this will provide the top processes consuming the most memory)
+- disk (this will provide a summary of disks / layout and size)
+- network (this will provide a network stack summary of connections with src/dest ip and ports, ** this may require the script to be run in sudo mode on some systems)
 
--d all (this will run each of the above options)
+- all (this will run each of the above options)
 
 Each option will generate a csv file that is prefix with the output type e.g. system and then the servername and datetime stamp.
 
