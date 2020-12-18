@@ -7,8 +7,8 @@ The linux scan script will pull information about the host from the system. The 
 
 ### Requirements
 
-Python3
-psutil
+- Python3
+- psutil
 
 ### Install steps
 1. Create a directory on the server 
