@@ -56,6 +56,16 @@ Each option will generate a csv file that is prefix with the output type e.g. sy
 
 - example file name : systeminfo_server1234_200601_132247.csv
 
+# Ready made compiled distribution: 
+
+A complied version can also be downloaded from the ./dist folder. The binary has been tested to run on the following O/S
+
+AWS Linx AMI
+Ubuntu 
+Redhat 
+SuSE
+
 # Output
 
 Once the script has been run and produed the .csv files these can be uploaded your appropriate portal.
+
